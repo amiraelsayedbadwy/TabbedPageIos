@@ -4,6 +4,8 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Yellow" />
+        <StackLayout BackgroundColor="Yellow" >
+            <Label Text="Hello" FontFamily="MyAwesomeCustomFont"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

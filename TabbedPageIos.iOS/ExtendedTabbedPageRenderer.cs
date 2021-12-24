@@ -31,9 +31,9 @@ namespace TabbedPageIos.iOS
                 return;
 
             // Set the font for the title.
-            item.SetTitleTextAttributes(new UITextAttributes() { Font = UIFont.FromName("GillSans-SemiBold", 18), TextColor = Color.FromHex("#3C9BDF").ToUIColor() }, UIControlState.Selected);
+            item.SetTitleTextAttributes(new UITextAttributes() { Font = UIFont.FromName("NunitoSans-Regular", 16), TextColor = Color.FromHex("#3C9BDF").ToUIColor() }, UIControlState.Selected);
 
-            item.SetTitleTextAttributes(new UITextAttributes() { Font = UIFont.FromName("GillSans-SemiBold", 14), TextColor = Color.FromHex("#757575").ToUIColor() }, UIControlState.Normal);
+            item.SetTitleTextAttributes(new UITextAttributes() { Font = UIFont.FromName("NunitoSans-Regular", 16), TextColor = Color.FromHex("#757575").ToUIColor() }, UIControlState.Normal);
         }
     }
 }
